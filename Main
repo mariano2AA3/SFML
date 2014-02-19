@@ -1,0 +1,10 @@
+#include <SFML/Graphics.hpp>
+#include "Pong.h"
+
+int main(){
+
+   Pong* pong = new Pong (600,300);
+   pong->run();
+
+   return 0;
+}
